@@ -5,7 +5,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", (event) => {
     const value = event.target.textContent.trim();
 
-    if (value === "AC") {
+    if (value === "Boo") {
       display.value = "";
     } else if (value === "\u232B") {
       display.value = display.value.slice(0, -1);
