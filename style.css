@@ -63,3 +63,93 @@ body {
     
    
 }
+#theme-toggle {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #26351d;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#theme-toggle:hover {
+  opacity: 0.8;
+}
+
+/* Dark Mode */
+
+body.dark-mode {
+  background-color: #171923;
+  color: white;
+}
+
+body.dark-mode .calculooter {
+  background-color: #303442;
+  border-color: #454b5c;
+}
+
+body.dark-mode #display {
+  background-color: #171923;
+  color: white;
+}
+
+body.dark-mode .button button {
+  background-color: #454b5c;
+  color: white;
+}
+
+body.dark-mode .button button:hover {
+  background-color: #64748b;
+}
+
+body.dark-mode #theme-toggle {
+  background-color: #e2e8f0;
+  color: #171923;
+}
+/* Mobile Responsive Design */
+
+@media (max-width: 480px) {
+
+  body {
+    padding: 15px;
+  }
+
+  .calculooter {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px;
+    border-radius: 30px;
+  }
+
+  .title {
+    top: 18px;
+    left: 15px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  #theme-toggle {
+    top: 60px;
+    right: 15px;
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+
+  #display {
+    height: 65px;
+    font-size: 1.8rem;
+  }
+
+  .button {
+    gap: 8px;
+  }
+
+  .button button {
+    height: 60px;
+    font-size: 1.3rem;
+  }
+}

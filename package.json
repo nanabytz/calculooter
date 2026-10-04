@@ -1,0 +1,27 @@
+{
+  "name": "calculooter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+  "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanabytz/calculooter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nanabytz/calculooter/issues"
+  },
+  "homepage": "https://github.com/nanabytz/calculooter#readme",
+  "devDependencies": {
+    "vite": "^8.3.2"
+  },
+  "dependencies": {
+    "motion": "^14.0.0"
+  }
+}
